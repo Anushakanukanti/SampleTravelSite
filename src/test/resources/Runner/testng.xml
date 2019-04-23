@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+<listener class-name="com.w2a.listeners.CustomListeners"/>
+</listeners>
+
+  <test name="Blog Test">
+    <classes>
+     <class name="com.w2a.testCases.BlogTest"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+<!--     <test name="Register Test"> -->
+<!--     <classes> -->
+<!--      <class name="com.w2a.testCases.RegisterTest"></class> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+<!--   <test name="Test Base"> -->
+<!--     <classes> -->
+<!--      <class name="com.w2a.testBase.TestBase"></class> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+  
+</suite> <!-- Suite -->
+
